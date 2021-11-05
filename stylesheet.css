@@ -1,0 +1,103 @@
+
+header{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family: 'Kalam', cursive;
+}
+
+.nav_bar{
+  margin: 0;
+  align-items: row;
+  text-align: center;
+  background: #ecfbff;
+}
+
+.seal_title{
+  font-family: 'Kalam', cursive;
+  font-size: 2.5rem;
+  margin: .5rem;
+}
+
+.nav_links ul{
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+.nav_links{
+  border: dotted #3cb1d2;
+}
+.nav_links li{
+  list-style: none ;
+  }
+
+.nav_links li a{
+text-decoration: none;
+color: black;
+font-size: 14px;
+padding: 1rem;
+position: relative;
+display: grid;
+}
+
+.nav_links a:hover{
+  background-color: #185767;
+  color: white;
+  text-decoration: underline 2px;
+  font-weight: bold;
+
+
+}
+
+.nav_links a.active{
+  background-color: #185767;
+  color: white;
+  text-decoration: underline 2px;
+}
+
+.main_banner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+}
+
+h1{
+  margin: 1.5rem;
+    color: black;
+}
+
+img{
+  height: 200px;
+  width: auto;
+  margin-left: 20px;
+  margin-right: auto;
+  border: 3px dotted #3cb1d2;
+
+}
+
+body{
+  color: black;
+  font-size: 16px;
+  margin: auto;
+  background-size: cover ;
+  background-position: center;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(images/teal.jpg);
+}
+
+p{
+  background-color: #ecfbff;
+  padding: 20px;
+  margin: 1.5rem;
+}
+
+
+footer{
+  background-color: #ecfbff;
+  color: black;
+}
